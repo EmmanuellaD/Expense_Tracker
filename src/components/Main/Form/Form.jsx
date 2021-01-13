@@ -8,14 +8,13 @@ const Form = () => {
         <Grid container spacing={2}>
             <Grid item xs={12}> 
             <Typography align="center" variant="subtitle2" gutterBottom>
-                ...
+                {/* ... */}
             </Typography>
 
             </Grid>
             <Grid item xs={6}>
                 <FormControl fullWidth>
-                    <InputLabel> Type
-                    </InputLabel>
+                    <InputLabel> Type</InputLabel>
                     <Select>
                         <MenuItem value= "Income">Income</MenuItem>
                         <MenuItem value= "Expense">Expense</MenuItem>
@@ -40,7 +39,7 @@ const Form = () => {
             <Grid item xs={6}>
                     <TextField type="date" label= "Date" fullWidth />
             </Grid>
-            <Button className={classes.button} variant="outlined" color="primary" fullWidth></Button>
+            <Button className={classes.button} variant="outlined" color="primary" fullWidth>Create</Button>
         </Grid>
     )
 }
